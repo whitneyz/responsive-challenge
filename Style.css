@@ -1,0 +1,71 @@
+@media (max-width: 300px) {
+    body {
+    background-color: red;
+        font-size: small;
+    }
+    /*#small {
+        display:initial;
+        float: left;
+        width: 1OO%;
+    }
+    #medium {
+        display:initial;
+        float: left;
+        width: 100%;
+    }
+    #large {
+        display:initial;
+        float: left;
+        width: 100%;
+    }*/
+
+}
+@media (min-width: 300px)
+and (max-width: 768px) {
+    body {
+        background-color: green;
+        font-size: medium;
+    }
+    #small {
+        display:initial;
+    float: left;
+        width: 66%;
+    }
+
+    #medium {
+        display:initial;
+        float: left;
+        width: 33%;
+    }
+
+    #large {
+        display:initial;
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: blue;
+        font-size: large;
+    }
+    #small {
+        display:initial;
+    float: left;
+width: 33%;
+    }
+
+
+    #medium {
+        display:initial;
+        float: left;
+        width: 33%;
+    }
+
+    #large {
+        display:initial;
+        float: left;
+        width: 33%;
+    }
+}
